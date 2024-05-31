@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400..900&family=Climate+Crisis&family=DM+Serif+Display:ital@0;1&family=Dorsa&family=Freeman&family=Honk&family=Lilita+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ojuju:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Radio+Canada+Big:wght@400..700&family=Rammetto+One&family=Rationale&family=Shojumaru&family=Teko:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #ffffff;
+	margin: 0;
+}
+
+.container {
+	max-width: 1215px;
+	margin: 30px auto;
+	padding: 20px;
+}
+
+h5.card-title.ships{
+    margin-top: 2vh;
+}
+
+svg {
+	height: 8vh;
+	margin-top: -1vh;
+	width: 8vh;
+	margin-left: -1vh;
+	fill: red;
+}
+
+.ship{
+    height: 10vh;
+    width: 10vh;
+}
+
+.slick-arrow {
+	color: green;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.testimonial-wrapper:hover {
+    background-color: #FF0000;
+    border-color: #FF0000;
+    color: white;
+    text-decoration: underline;
+}
+
+.testimonial-wrapper:hover svg {
+	fill: white;
+}
+
+.testimonial-wrapper:hover .card-title {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color:#b99190; 
+}
+
+.card-title {
+    font-size: 15px;
+    line-height: 3vh;
+    margin-top: 4vh;
+    color: #3A4A64;
+    font-family: "Ubuntu", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+}
+
+.card-body {
+	margin-top: 4vh;
+}
+
+.slick-list {
+	height: 34vh;
+}
+
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.slick-dots li {
+	list-style: none;
+	margin: 0 5px;
+	transition: margin 0.3s ease;
+}
+
+.slick-dots li button {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.slick-dots li button:before {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+	opacity: 0.5;
+	transition: all 0.3s ease;
+}
+
+.slick-dots li.slick-active {
+	margin: 0 15px;
+}
+
+.slick-dots li.slick-active button:before {
+	background-color: #ff1e00;
+	width: 51px;
+	margin-left: -16px;
+	opacity: 1;
+}
+
+.testimonial-slider {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	width: 100%;
+	margin-top: 20vh;
+}
+
+.testimonial-wrapper {
+	position: relative;
+	height: 217px;
+	overflow: visible;
+	transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+	border-radius: 11px;
+	border: 1px solid #e0e0e0;
+	margin: 10px;
+	box-sizing: border-box;
+	z-index: 0;
+}
+
+@media (max-width: 1200px) {
+	.testimonial-wrapper {
+		width: calc(25% - 30px);
+	}
+}
+
+@media (max-width: 768px) {
+	.testimonial-wrapper {
+		width: calc(50% - 30px);
+	}
+}
+
+@media (max-width: 576px) {
+	.testimonial-wrapper {
+		width: calc(100% - 30px);
+	}
+}
