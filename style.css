@@ -2,7 +2,7 @@
 
 body {
 	font-family: Arial, sans-serif;
-	background-color: #ffffff;
+	background-color: #212529;
 	margin: 0;
 }
 
@@ -28,18 +28,13 @@ svg {
     height: 10vh;
     width: 10vh;
 }
-
-.slick-arrow {
-	color: green;
-}
-
 .text-center {
 	text-align: center;
 }
 
 .testimonial-wrapper:hover {
-    background-color: #FF0000;
-    border-color: #FF0000;
+    background-color: #ff2828;
+    border-color: #ff3c3c;
     color: white;
     text-decoration: underline;
 }
@@ -51,14 +46,14 @@ svg {
 .testimonial-wrapper:hover .card-title {
     color: white;
     text-decoration: underline;
-    text-decoration-color:#b99190; 
+    text-decoration-color:#c7c7c7; 
 }
 
 .card-title {
     font-size: 15px;
     line-height: 3vh;
     margin-top: 4vh;
-    color: #3A4A64;
+    color: #ffaa4e;
     font-family: "Ubuntu", sans-serif;
   	font-weight: 500;
   	font-style: normal;
@@ -98,7 +93,7 @@ svg {
 	display: block;
 	width: 20px;
 	height: 2px;
-	background-color: #000;
+	background-color: #ffffff;
 	opacity: 0.5;
 	transition: all 0.3s ease;
 }
@@ -130,7 +125,7 @@ svg {
 	overflow: visible;
 	transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 	border-radius: 11px;
-	border: 1px solid #e0e0e0;
+	border: 1px solid #cccbcb;
 	margin: 10px;
 	box-sizing: border-box;
 	z-index: 0;

@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $('.testimonial-slider').slick({
         infinite: true,
-        slidesToShow: 6, // Change the number of slides to show to 4
+        slidesToShow: 6, 
         slidesToScroll: 2,
         autoplay: true,
-        autoplaySpeed: 500000,
+        autoplaySpeed: 50000000,
         dots: true,
         arrows: false,
         responsive: [
